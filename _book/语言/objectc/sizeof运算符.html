@@ -1,0 +1,1637 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>20、sizeof运算符 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="逗号运算符.html" />
+    
+    
+    <link rel="prev" href="自增自减运算符.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../SUMMARY.html">
+            
+                <a href="../SUMMARY.html">
+            
+                    
+                    语言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="SUMMARY.html">
+            
+                <a href="SUMMARY.html">
+            
+                    
+                    1、Object-C
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="iOS设备发展史.html">
+            
+                <a href="iOS设备发展史.html">
+            
+                    
+                    1、iOS设备发展史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="开发环境配置.html">
+            
+                <a href="开发环境配置.html">
+            
+                    
+                    2、开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="关键字.html">
+            
+                <a href="关键字.html">
+            
+                    
+                    3、关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="标识符.html">
+            
+                <a href="标识符.html">
+            
+                    
+                    4、标识符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="数据及数据类型.html">
+            
+                <a href="数据及数据类型.html">
+            
+                    
+                    5、数据及数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="常量基本概念.html">
+            
+                <a href="常量基本概念.html">
+            
+                    
+                    6、常量基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.7" data-path="不同类型常量的表示方法.html">
+            
+                <a href="不同类型常量的表示方法.html">
+            
+                    
+                    7、不同类型常量的表示方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.8" data-path="变量基本概念.html">
+            
+                <a href="变量基本概念.html">
+            
+                    
+                    8、变量基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.9" data-path="变量初始化和引用.html">
+            
+                <a href="变量初始化和引用.html">
+            
+                    
+                    9、变量初始化和引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.10" data-path="变量的作用域.html">
+            
+                <a href="变量的作用域.html">
+            
+                    
+                    10、变量的作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.11" data-path="变量内存分析.html">
+            
+                <a href="变量内存分析.html">
+            
+                    
+                    11、变量内存分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.12" data-path="运算符的概念以及分类.html">
+            
+                <a href="运算符的概念以及分类.html">
+            
+                    
+                    12、运算符的概念以及分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.13" data-path="运算符的优先级以及结合性.html">
+            
+                <a href="运算符的优先级以及结合性.html">
+            
+                    
+                    13、运算符的优先级以及结合性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.14" data-path="算术运算符.html">
+            
+                <a href="算术运算符.html">
+            
+                    
+                    14、算术运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.15" data-path="求余运算符.html">
+            
+                <a href="求余运算符.html">
+            
+                    
+                    15、求余运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.16" data-path="类型转换问题.html">
+            
+                <a href="类型转换问题.html">
+            
+                    
+                    16、类型转换问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.17" data-path="赋值运算符.html">
+            
+                <a href="赋值运算符.html">
+            
+                    
+                    17、赋值运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.18" data-path="复合运算符.html">
+            
+                <a href="复合运算符.html">
+            
+                    
+                    18、复合运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.19" data-path="自增自减运算符.html">
+            
+                <a href="自增自减运算符.html">
+            
+                    
+                    19、自增自减运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.20" data-path="sizeof运算符.html">
+            
+                <a href="sizeof运算符.html">
+            
+                    
+                    20、sizeof运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.21" data-path="逗号运算符.html">
+            
+                <a href="逗号运算符.html">
+            
+                    
+                    21、逗号运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.22" data-path="关系运算符.html">
+            
+                <a href="关系运算符.html">
+            
+                    
+                    22、关系运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.23" data-path="关系运算符优先级和优先级.html">
+            
+                <a href="关系运算符优先级和优先级.html">
+            
+                    
+                    23、关系运算符优先级和优先级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.24" data-path="逻辑运算符.html">
+            
+                <a href="逻辑运算符.html">
+            
+                    
+                    24、逻辑运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.25" data-path="逻辑运算符优先级和短路问题.html">
+            
+                <a href="逻辑运算符优先级和短路问题.html">
+            
+                    
+                    25、逻辑运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.26" data-path="三目运算符.html">
+            
+                <a href="三目运算符.html">
+            
+                    
+                    26、三目运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.27" data-path="if基本概念.html">
+            
+                <a href="if基本概念.html">
+            
+                    
+                    27、if基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.28" data-path="Switch基本概念.html">
+            
+                <a href="Switch基本概念.html">
+            
+                    
+                    28、Switch基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.29" data-path="Switch注意事项.html">
+            
+                <a href="Switch注意事项.html">
+            
+                    
+                    29、Switch注意事项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.30" data-path="循环基本概念.html">
+            
+                <a href="循环基本概念.html">
+            
+                    
+                    30、循环基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.31" data-path="while循环基本概念.html">
+            
+                <a href="while循环基本概念.html">
+            
+                    
+                    31、while循环基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.32" data-path="while循环注意点.html">
+            
+                <a href="while循环注意点.html">
+            
+                    
+                    32、while循环注意点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.33" data-path="break关键字.html">
+            
+                <a href="break关键字.html">
+            
+                    
+                    33、break关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.34" data-path="continue关键字.html">
+            
+                <a href="continue关键字.html">
+            
+                    
+                    34、continue关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.35" data-path="dowhile循环基本概念.html">
+            
+                <a href="dowhile循环基本概念.html">
+            
+                    
+                    35、dowhile循环基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.36" data-path="do-while和while对比.html">
+            
+                <a href="do-while和while对比.html">
+            
+                    
+                    36、do-while和while对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.37" data-path="for循环基本概念.html">
+            
+                <a href="for循环基本概念.html">
+            
+                    
+                    37、for循环基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.38" data-path="for循环的其他形式.html">
+            
+                <a href="for循环的其他形式.html">
+            
+                    
+                    38、for循环的其他形式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.39" data-path="函数基本概念.html">
+            
+                <a href="函数基本概念.html">
+            
+                    
+                    39、函数基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.40" data-path="函数的定义.html">
+            
+                <a href="函数的定义.html">
+            
+                    
+                    40、函数的定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.41" data-path="函数的参数及返回值.html">
+            
+                <a href="函数的参数及返回值.html">
+            
+                    
+                    41、函数的参数及返回值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.42" data-path="函数的声明.html">
+            
+                <a href="函数的声明.html">
+            
+                    
+                    42、函数的声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.43" data-path="函数的调用.html">
+            
+                <a href="函数的调用.html">
+            
+                    
+                    43、函数的调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.44" data-path="递归函数.html">
+            
+                <a href="递归函数.html">
+            
+                    
+                    44、递归函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.45" data-path="递归函数应用.html">
+            
+                <a href="递归函数应用.html">
+            
+                    
+                    45、递归函数应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.46" data-path="Xcode运行原理.html">
+            
+                <a href="Xcode运行原理.html">
+            
+                    
+                    46、Xcode运行原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.47" data-path="手动编译.html">
+            
+                <a href="手动编译.html">
+            
+                    
+                    47、手动编译
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.48" data-path="include指令.html">
+            
+                <a href="include指令.html">
+            
+                    
+                    48、#include指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.49" data-path="C语言模块化编程概念.html">
+            
+                <a href="C语言模块化编程概念.html">
+            
+                    
+                    49、C语言模块化编程概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.50" data-path="进制基本概念.html">
+            
+                <a href="进制基本概念.html">
+            
+                    
+                    50、进制基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.51" data-path="进制转换.html">
+            
+                <a href="进制转换.html">
+            
+                    
+                    51、进制转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.52" data-path="原码反码补码概念及转换.html">
+            
+                <a href="原码反码补码概念及转换.html">
+            
+                    
+                    52、原码反码补码概念及转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.53" data-path="位运算符介绍.html">
+            
+                <a href="位运算符介绍.html">
+            
+                    
+                    53、位运算符介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.54" data-path="变量内存分析.html">
+            
+                <a href="变量内存分析.html">
+            
+                    
+                    54、变量内存分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.55" data-path="char类型.html">
+            
+                <a href="char类型.html">
+            
+                    
+                    55、char类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.56" data-path="类型说明符.html">
+            
+                <a href="类型说明符.html">
+            
+                    
+                    56、类型说明符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.57" data-path="数组基本概念.html">
+            
+                <a href="数组基本概念.html">
+            
+                    
+                    57、数组基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.58" data-path="数组定义.html">
+            
+                <a href="数组定义.html">
+            
+                    
+                    58、数组定义/初始化/使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.59" data-path="数组遍历.html">
+            
+                <a href="数组遍历.html">
+            
+                    
+                    59、数组遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.60" data-path="数组注意事项.html">
+            
+                <a href="数组注意事项.html">
+            
+                    
+                    60、数组注意事项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.61" data-path="数组内存分配.html">
+            
+                <a href="数组内存分配.html">
+            
+                    
+                    61、数组内存分配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.62" data-path="二维数组基本概念.html">
+            
+                <a href="二维数组基本概念.html">
+            
+                    
+                    62、二维数组基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.63" data-path="二维数组的遍历和存储.html">
+            
+                <a href="二维数组的遍历和存储.html">
+            
+                    
+                    63、二维数组的遍历和存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.64" data-path="二维数组与函数.html">
+            
+                <a href="二维数组与函数.html">
+            
+                    
+                    64、二维数组与函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.65" data-path="字符串的基本概念.html">
+            
+                <a href="字符串的基本概念.html">
+            
+                    
+                    65、字符串的基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.66" data-path="字符串常用方法1.html">
+            
+                <a href="字符串常用方法1.html">
+            
+                    
+                    66、字符串常用方法(一)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.67" data-path="字符串常用方法2.html">
+            
+                <a href="字符串常用方法2.html">
+            
+                    
+                    67、字符串常用方法(二)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.68" data-path="字符串数组.html">
+            
+                <a href="字符串数组.html">
+            
+                    
+                    68、字符串数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.69" data-path="指针基本概念.html">
+            
+                <a href="指针基本概念.html">
+            
+                    
+                    69、指针基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.70" data-path="指针变量基本概念.html">
+            
+                <a href="指针变量基本概念.html">
+            
+                    
+                    70、指针变量基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.71" data-path="指针变量初始化.html">
+            
+                <a href="指针变量初始化.html">
+            
+                    
+                    71、指针变量初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.72" data-path="多级指针.html">
+            
+                <a href="多级指针.html">
+            
+                    
+                    72、多级指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.73" data-path="指针类型.html">
+            
+                <a href="指针类型.html">
+            
+                    
+                    73、指针类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.74" data-path="指针与数组.html">
+            
+                <a href="指针与数组.html">
+            
+                    
+                    74、指针与数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.75" data-path="指针与字符串.html">
+            
+                <a href="指针与字符串.html">
+            
+                    
+                    75、指针与字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.76" data-path="返回指针的函数.html">
+            
+                <a href="返回指针的函数.html">
+            
+                    
+                    76、返回指针的函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.77" data-path="指向函数的指针.html">
+            
+                <a href="指向函数的指针.html">
+            
+                    
+                    77、指向函数的指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.78" data-path="全局变量和局部变量.html">
+            
+                <a href="全局变量和局部变量.html">
+            
+                    
+                    78、全局变量和局部变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.79" data-path="static和extern关键字.html">
+            
+                <a href="static和extern关键字.html">
+            
+                    
+                    79、static和extern关键字-对变量和函数的作用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.80" data-path="预处理指令基本概念.html">
+            
+                <a href="预处理指令基本概念.html">
+            
+                    
+                    80、预处理指令基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.81" data-path="宏定义.html">
+            
+                <a href="宏定义.html">
+            
+                    
+                    81、宏定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.82" data-path="条件编译基本概念.html">
+            
+                <a href="条件编译基本概念.html">
+            
+                    
+                    82、条件编译基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.83" data-path="typedef关键字.html">
+            
+                <a href="typedef关键字.html">
+            
+                    
+                    83、typedef关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.84" data-path="宏定义与函数以typedef区别.html">
+            
+                <a href="宏定义与函数以typedef区别.html">
+            
+                    
+                    84、宏定义与函数以typedef区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.85" data-path="const关键字.html">
+            
+                <a href="const关键字.html">
+            
+                    
+                    85、const关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.86" data-path="Objective-C简介.html">
+            
+                <a href="Objective-C简介.html">
+            
+                    
+                    86、Objective-C简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.87" data-path="OC和C对比.html">
+            
+                <a href="OC和C对比.html">
+            
+                    
+                    87、OC和C对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.88" data-path="第一个OC程序.html">
+            
+                <a href="第一个OC程序.html">
+            
+                    
+                    88、第一个OC程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.89" data-path="面向对象思想.html">
+            
+                <a href="面向对象思想.html">
+            
+                    
+                    89、面向对象思想
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.90" data-path="类与对象.html">
+            
+                <a href="类与对象.html">
+            
+                    
+                    90、类与对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.91" data-path="第一个OC类.html">
+            
+                <a href="第一个OC类.html">
+            
+                    
+                    91、第一个OC类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.92" data-path="对象方法的声明和实现.html">
+            
+                <a href="对象方法的声明和实现.html">
+            
+                    
+                    92、对象方法的声明和实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.93" data-path="类方法的声明和实现.html">
+            
+                <a href="类方法的声明和实现.html">
+            
+                    
+                    93、类方法的声明和实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.94" data-path="对象的存储细节.html">
+            
+                <a href="对象的存储细节.html">
+            
+                    
+                    94、对象的存储细节
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.95" data-path="函数与方法对比.html">
+            
+                <a href="函数与方法对比.html">
+            
+                    
+                    95、函数与方法对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.96" data-path="NSString类介绍及用法.html">
+            
+                <a href="NSString类介绍及用法.html">
+            
+                    
+                    96、NSString 类介绍及用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.97" data-path="结构体成员变量.html">
+            
+                <a href="结构体成员变量.html">
+            
+                    
+                    97、结构体成员变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.98" data-path="对象和方法之间的关系.html">
+            
+                <a href="对象和方法之间的关系.html">
+            
+                    
+                    98、对象和方法之间的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.99" data-path="pragmamark指令.html">
+            
+                <a href="pragmamark指令.html">
+            
+                    
+                    99、#pragma mark指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.100" data-path="对象作为方法的参数连续传递.html">
+            
+                <a href="对象作为方法的参数连续传递.html">
+            
+                    
+                    100、对象作为方法的参数连续传递
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.101" data-path="Xcode模板修改.html">
+            
+                <a href="Xcode模板修改.html">
+            
+                    
+                    101、Xcode模板修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >20、sizeof运算符</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="sizeof&#x8FD0;&#x7B97;&#x7B26;">sizeof&#x8FD0;&#x7B97;&#x7B26;</h1>
+<h2 id="&#x672C;&#x5C0F;&#x8282;&#x77E5;&#x8BC6;&#x70B9;">&#x672C;&#x5C0F;&#x8282;&#x77E5;&#x8BC6;&#x70B9;:</h2>
+<ol>
+<li>&#x3010;&#x4E86;&#x89E3;&#x3011;sizeof&#x8FD0;&#x7B97;&#x7B26;&#x4ECB;&#x7ECD;</li>
+<li>&#x3010;&#x7406;&#x89E3;&#x3011;&#x57FA;&#x672C;&#x5F62;&#x5F0F;&#x57FA;&#x672C;&#x5F62;&#x5F0F;</li>
+</ol>
+<hr>
+<h2 id="1sizeof&#x8FD0;&#x7B97;&#x7B26;&#x4ECB;&#x7ECD;">1.sizeof&#x8FD0;&#x7B97;&#x7B26;&#x4ECB;&#x7ECD;</h2>
+<ul>
+<li>sizeof&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x8BA1;&#x7B97;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x6216;&#x4E00;&#x4E2A;&#x5E38;&#x91CF;&#x3001;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6240;&#x5360;&#x7684;&#x5185;&#x5B58;&#x5B57;&#x8282;&#x6570;<ul>
+<li>&#x683C;&#x5F0F;: &#x7528;&#x6CD5;:sizeof(&#x5E38;&#x91CF;/&#x53D8;&#x91CF;)<blockquote>
+<ul>
+<li>&#x6CE8;&#x610F;: sizeof&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;, &#x662F;&#x4E00;&#x4E2A;&#x8FD0;&#x7B97;&#x7B26;. (&#x9762;&#x8BD5;&#x9898;)</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="2&#x57FA;&#x672C;&#x5F62;&#x5F0F;&#x57FA;&#x672C;&#x5F62;&#x5F0F;&#x7528;&#x6CD5;">2.&#x57FA;&#x672C;&#x5F62;&#x5F0F;&#x57FA;&#x672C;&#x5F62;&#x5F0F;(&#x7528;&#x6CD5;)</h2>
+<ul>
+<li><p>sizeof( &#x53D8;&#x91CF;\&#x5E38;&#x91CF; )</p>
+<ul>
+<li><code>sizeof(10);</code></li>
+<li><code>char c = &apos;a&apos;; sizeof(c);</code></li>
+</ul>
+</li>
+<li><p>sizeof &#x53D8;&#x91CF;\&#x5E38;&#x91CF;</p>
+<ul>
+<li><code>sizeof 10;</code></li>
+<li><code>char c = &apos;a&apos;; sizeof c;</code></li>
+</ul>
+</li>
+<li><p>sizeof( &#x6570;&#x636E;&#x7C7B;&#x578B; )</p>
+<ul>
+<li><code>sizeof(float);</code></li>
+<li>&#x6CE8;&#x610F;:&#x5982;&#x679C;&#x662F;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x4E0D;&#x80FD;&#x7701;&#x7565;&#x62EC;&#x53F7;<ul>
+<li><code>sizeof float; // &#x9519;&#x8BEF;&#x5199;&#x6CD5;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="自增自减运算符.html" class="navigation navigation-prev " aria-label="Previous page: 19、自增自减运算符">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="逗号运算符.html" class="navigation navigation-next " aria-label="Next page: 21、逗号运算符">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"20、sizeof运算符","level":"1.2.1.20","depth":3,"next":{"title":"21、逗号运算符","level":"1.2.1.21","depth":3,"path":"语言/objectc/逗号运算符.md","ref":"./语言/objectc/逗号运算符.md","articles":[]},"previous":{"title":"19、自增自减运算符","level":"1.2.1.19","depth":3,"path":"语言/objectc/自增自减运算符.md","ref":"./语言/objectc/自增自减运算符.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","livereload"],"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"语言/objectc/sizeof运算符.md","mtime":"2020-06-02T00:50:05.960Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-03T01:11:08.943Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
