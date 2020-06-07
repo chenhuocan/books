@@ -1,225 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="588fb05a-7410-4dc6-90a3-54be7091f4ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/语言/Swift/Swift中数据类型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/Swift中类的使用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/元组.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/可选类型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/字典.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/字符串的介绍.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/常量和变量.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/循环的介绍.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/懒加载.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/数组.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/类的构造函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/逻辑分支.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/语言/Swift/闭包.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/JavaScript/SUMMARY.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/JavaScript/SUMMARY.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/SUMMARY.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/SUMMARY.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/Swift/SUMMARY.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/Swift/SUMMARY.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/css/SUMMARY.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/css/SUMMARY.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/html标签/SUMMARY.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/html标签/SUMMARY.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/java/SUMMARY.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/java/SUMMARY.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/ARC下的内存管理.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/ARC下的内存管理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/ARC和MRC兼容和转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/ARC和MRC兼容和转换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/ARC基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/ARC基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/ARC快速入门.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/ARC快速入门.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Block基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Block基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Block注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Block注意事项.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Category基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Category基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Category注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Category注意事项.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Copy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/C语言模块化编程概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/C语言模块化编程概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Foundation框架介绍.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Foundation框架介绍.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSArray与字符串.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSArray与字符串.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSArray基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSArray基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSArray排序.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSArray排序.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSArray文件读写.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSArray文件读写.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSArray遍历.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSArray遍历.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSDate.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSDate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSDictionary基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSDictionary基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSFileManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSFileManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSMutableArray基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSMutableArray基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSMutableDictionary基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSMutableDictionary基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSMutableString基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSMutableString基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSMutableString常用方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSMutableString常用方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSNumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSString基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSString基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSString类介绍及用法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSString类介绍及用法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/NSValue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/NSValue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/OC中的私有方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/OC中的私有方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/OC和C对比.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/OC和C对比.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Objective-C简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Objective-C简介.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Protocol基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Protocol基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Protocol注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Protocol注意事项.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Protocol类型限制.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Protocol类型限制.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/SEL类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/SEL类型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/SUMMARY.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/SUMMARY.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Self关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Self关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Super关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Super关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Switch基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Switch基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Switch注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Switch注意事项.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Xcode模板修改.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Xcode模板修改.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Xcode设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Xcode设置.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/Xcode运行原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/Xcode运行原理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/autorelease基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/autorelease基本使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/autorelease注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/autorelease注意事项.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/break关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/break关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/char类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/char类型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/class.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/class.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/const关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/const关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/continue关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/continue关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/copy与内存管理.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/copy与内存管理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/dealloc方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/dealloc方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/description方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/description方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/do-while和while对比.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/do-while和while对比.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/dowhile循环基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/dowhile循环基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/for循环基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/for循环基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/for循环的其他形式.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/for循环的其他形式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/gettersetter.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/gettersetter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/iOS设备发展史.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/iOS设备发展史.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/id.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/id.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/if基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/if基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/include指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/include指令.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/new方法实现原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/new方法实现原理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/pragmamark指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/pragmamark指令.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/property.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/property.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/propertycopy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/propertycopy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/property修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/property修饰符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/property参数.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/property参数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/property增强.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/property增强.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/sizeof运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/sizeof运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/static和extern关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/static和extern关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/synthesize.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/synthesize.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/typedefblock.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/typedefblock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/typedef关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/typedef关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/while循环基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/while循环基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/while循环注意点.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/while循环注意点.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/三目运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/三目运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/不同类型常量的表示方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/不同类型常量的表示方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/二维数组与函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/二维数组与函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/二维数组基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/二维数组基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/二维数组的遍历和存储.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/二维数组的遍历和存储.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/代理设计模式.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/代理设计模式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/位运算符介绍.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/位运算符介绍.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/全局变量和局部变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/全局变量和局部变量.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/关系运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/关系运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/关系运算符优先级和优先级.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/关系运算符优先级和优先级.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/内存管理原则.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/内存管理原则.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/内存管理简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/内存管理简介.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/函数与方法对比.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/函数与方法对比.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/函数基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/函数基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/函数的参数及返回值.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/函数的参数及返回值.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/函数的声明.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/函数的声明.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/函数的定义.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/函数的定义.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/函数的调用.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/函数的调用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/单例设计模式.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/单例设计模式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/原码反码补码概念及转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/原码反码补码概念及转换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/变量内存分析.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/变量内存分析.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/变量初始化和引用.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/变量初始化和引用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/变量基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/变量基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/变量的作用域.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/变量的作用域.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/复合运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/复合运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/多态基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/多态基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/多态的实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/多态的实现.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/多级指针.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/多级指针.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串与基本数据类型转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串与基本数据类型转换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串与路径.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串与路径.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串常用方法1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串常用方法1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串常用方法2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串常用方法2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串截取.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串截取.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串搜索.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串搜索.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串数组.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串数组.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串替换.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串替换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串比较.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串比较.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串的基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串的基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/字符串读写.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/字符串读写.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/宏定义.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/宏定义.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/宏定义与函数以typedef区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/宏定义与函数以typedef区别.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/实例变量修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/实例变量修饰符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/对象作为方法的参数连续传递.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/对象作为方法的参数连续传递.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/对象和方法之间的关系.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/对象和方法之间的关系.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/对象方法的声明和实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/对象方法的声明和实现.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/对象的存储细节.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/对象的存储细节.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/封装.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/封装.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/常见的结构体.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/常见的结构体.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/常量基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/常量基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/开发环境配置.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/开发环境配置.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/引用计数器.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/引用计数器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/循环retian.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/循环retian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/循环基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/循环基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/手动编译.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/手动编译.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/指向函数的指针.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/指向函数的指针.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/指针与字符串.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/指针与字符串.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/指针与数组.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/指针与数组.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/指针变量初始化.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/指针变量初始化.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/指针变量基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/指针变量基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/指针基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/指针基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/指针类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/指针类型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/数据及数据类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/数据及数据类型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/数组内存分配.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/数组内存分配.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/数组基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/数组基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/数组定义.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/数组定义.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/数组注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/数组注意事项.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/数组遍历.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/数组遍历.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/条件编译基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/条件编译基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/构造方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/构造方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/构造类型及结构体.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/构造类型及结构体.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/枚举类型基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/枚举类型基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/标识符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/标识符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/求余运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/求余运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/点语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/点语法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/第一个OC程序.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/第一个OC程序.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/第一个OC类.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/第一个OC类.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/算术运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/算术运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/类与对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/类与对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/类型说明符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/类型说明符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/类型转换问题.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/类型转换问题.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/类扩展.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/类扩展.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/类方法的声明和实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/类方法的声明和实现.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/类的启动过程.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/类的启动过程.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/类的本质.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/类的本质.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体内存分析.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体内存分析.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体变量的定义.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体变量的定义.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体和函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体和函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体嵌套定义.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体嵌套定义.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体成员变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体成员变量.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体指针.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体指针.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体数组.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体数组.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/结构体类型的作用域.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/结构体类型的作用域.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/继承中的自定义构造方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/继承中的自定义构造方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/继承基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/继承基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/继承相关特性.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/继承相关特性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/自增自减运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/自增自减运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/自定义代码段.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/自定义代码段.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/自定义构造方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/自定义构造方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/自定义的类实现copy操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/自定义的类实现copy操作.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/自定义类工厂方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/自定义类工厂方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/赋值运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/赋值运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/运算符的优先级以及结合性.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/运算符的优先级以及结合性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/运算符的概念以及分类.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/运算符的概念以及分类.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/返回指针的函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/返回指针的函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/进制基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/进制基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/进制转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/进制转换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/递归函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/递归函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/递归函数应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/递归函数应用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/逗号运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/逗号运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/逻辑运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/逻辑运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/逻辑运算符优先级和短路问题.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/逻辑运算符优先级和短路问题.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/野指针.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/野指针.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/集合对象的内存管理.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/集合对象的内存管理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/面向对象思想.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/面向对象思想.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/语言/objectc/预处理指令基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/语言/objectc/预处理指令基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/语言/Swift/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/语言/Swift/SUMMARY.md" afterDir="false" />
-    </list>
+    <list default="true" id="588fb05a-7410-4dc6-90a3-54be7091f4ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -230,116 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/SUMMARY.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="140">
-                <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/Swift中数据类型.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="396">
-                <caret line="558" selection-start-line="558" selection-end-line="558" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/Swift中类的使用.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="934" selection-start-line="934" selection-end-line="934" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/元组.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
-                <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/函数.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="396">
-                <caret line="251" selection-start-line="251" selection-end-line="251" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/可选类型.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="33">
-                <caret line="294" column="10" selection-start-line="294" selection-start-column="10" selection-end-line="294" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/字符串的介绍.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="172">
-                <caret line="261" column="26" selection-start-line="261" selection-start-column="26" selection-end-line="261" selection-end-column="26" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/常量和变量.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="284">
-                <caret line="486" column="33" selection-start-line="486" selection-start-column="33" selection-end-line="486" selection-end-column="33" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/语言/Swift/类的构造函数.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="228">
-                <caret line="626" column="21" selection-start-line="626" selection-start-column="21" selection-end-line="626" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -412,9 +85,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="583" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-22" />
+    <option name="y" value="177" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -433,17 +106,6 @@
             <path>
               <item name="books" type="b2602c69:ProjectViewProjectNode" />
               <item name="books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="语言" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="语言" type="462c0819:PsiDirectoryNode" />
-              <item name="Swift" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -497,18 +159,17 @@
       <workItem from="1591143198925" duration="2643000" />
       <workItem from="1591146388220" duration="4875000" />
       <workItem from="1591188863066" duration="6265000" />
-      <workItem from="1591275984480" duration="6365000" />
+      <workItem from="1591275984480" duration="6398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34379000" />
+    <option name="totallyTimeSpent" value="34508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="5" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2736462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29602888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -520,7 +181,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32767624" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32767624" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1027,8 +688,8 @@
     <entry file="file://$PROJECT_DIR$/语言/Swift/Swift中数据类型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="558" selection-start-line="558" selection-end-line="558" />
+          <first_editor relative-caret-position="312">
+            <caret line="648" column="14" lean-forward="true" selection-start-line="648" selection-start-column="14" selection-end-line="648" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
