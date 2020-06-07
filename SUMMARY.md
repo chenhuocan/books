@@ -1,6 +1,7 @@
 # Summary
 
 * [介绍](README.md)
+
 ### 语言篇
 * [语言](./语言/SUMMARY.md)
     * [1、Object-C](./语言/objectc/SUMMARY.md)
@@ -215,8 +216,131 @@
     * [4、JavaScript](./语言/JavaScript/SUMMARY.md)
     * [5、css](./语言/css/SUMMARY.md)
     * [6、html标签](./语言/html标签/SUMMARY.md)
- 
+    
+### 工具篇
+* [工具](./工具/SUMMARY.md)
+    * [1、GIT](./工具/GIT/SUMMARY.md)
+    * [2、SVN](./工具/SVN/SUMMARY.md)
+    
+### 编程思想篇
 
-        
+* [编程思想](./编程思想篇/SUMMARY.md)
+    * [1、设计模式](./编程思想篇/设计模式/SUMMARY.md)
+    * [2、架构模式](./编程思想篇/架构模式/SUMMARY.md)
+    * [3、编程范型](./编程思想篇/编程范型/SUMMARY.md)
+    * [4、代码规范](./编程思想篇/代码规范/SUMMARY.md)
+    
+### 计算机基础篇
+
+* [计算机基础](./计算机基础篇/SUMMARY.md)
+    * [1、编译原理](./计算机基础篇/编译原理/SUMMARY.md)
+    * [2、算法](./计算机基础篇/算法/SUMMARY.md)
+    * [3、数据结构](./计算机基础篇/数据结构/SUMMARY.md)
+    * [4、内存管理](./计算机基础篇/内存管理/SUMMARY.md)
+    * [5、操作系统](./计算机基础篇/操作系统/SUMMARY.md)
+    * [6、计算机网络](./计算机基础篇/计算机网络/SUMMARY.md)
+    * [7、网络通信篇](./计算机基础篇/网络通信篇/SUMMARY.md)
+    * [8、多线程](./计算机基础篇/多线程/SUMMARY.md)
+    
+### 安全篇
+* [安全篇](./安全篇/SUMMARY.md)
+
+### 性能篇
+* [性能篇](./性能篇/SUMMARY.md)
+
+### 开发完成篇
+* [开发完成篇](./开发完成篇/SUMMARY.md)
+    * [1、调试](./开发完成篇/调试/SUMMARY.md)
+    * [2、持续化交付](./开发完成篇/持续化交付/SUMMARY.md)
+    * [3、单元测试](./开发完成篇/单元测试/SUMMARY.md)
+
+### 上线后篇
+* [上线后篇](./上线后篇/SUMMARY.md)
+    * [1、上线](./上线后篇/上线/SUMMARY.md)
+    * [2、APM](./上线后篇/APM/SUMMARY.md)
+    * [3、崩溃](./上线后篇/崩溃/SUMMARY.md)
+    * [4、日志](./上线后篇/日志/SUMMARY.md)
+    * [5、动态化](./上线后篇/动态化/SUMMARY.md)
+
+### 移动端篇
+* [移动端](./移动端/SUMMARY.md)
+    * [1、ios](./移动端/ios/SUMMARY.md)
+    * [2、Android](./移动端/android/SUMMARY.md)
+    * [3、weex](./移动端/weex/SUMMARY.md)
+        * [3.1、ios文档](./移动端/weex/ios文档/SUMMARY.md)
+            * [1、创建私有库](./移动端/weex/ios文档/创建私有库.md)
+            * [2、ios脚本自动打包流程](./移动端/weex/ios文档/ios脚本自动打包流程.md)
+            * [3、ios应用架构](./移动端/weex/ios文档/ios应用架构.md)
+        * [3.2、Android文档](./移动端/weex/Android文档/SUMMARY.md)
+            * [1、关于mac系统jenkins构建打包配置](./移动端/weex/Android文档/关于mac系统jenkins构建打包配置.md)
+        * [3.3、开发支持文档](./移动端/weex/开发支持文档/SUMMARY.md)
+            * [1、描述文件申请流程](./移动端/weex//开发支持文档/描述文件申请流程.md)
+            * [2、iOS如何申请开发者账号](./移动端/weex/开发支持文档/iOS如何申请开发者账号.md)
+            * [3、Crash收集与分析](./移动端/weex/开发支持文档/Crash收集与分析.md)
+            * [4、HTTP网络请求规范](./移动端/weex/开发支持文档/HTTP网络请求规范.md)
+        * [3.4、业务开发组件](./移动端/weex/业务开发组件/SUMMARY.md)
+            * [1、公用方法](./移动端/weex/业务开发组件/公用方法.md)
+            * [2、头部导航栏](./移动端/weex/业务开发组件/头部导航栏.md)
+            * [3、进度条组件](./移动端/weex/业务开发组件/进度条组件.md)
+            * [4、表单项组件](./移动端/weex/业务开发组件/表单项组件.md)
+            * [5、下拉选择栏](./移动端/weex/业务开发组件/下拉选择栏.md)
+            * [6、输入框组件](./移动端/weex/业务开发组件/输入框组件.md)
+            * [7、标签页](./移动端/weex/业务开发组件/标签页.md)
+            * [8、列表组件](./移动端/weex/业务开发组件/列表组件.md)
+            * [9、按钮组件](./移动端/weex/业务开发组件/按钮组件.md)
+            * [10、图片选择上传](./移动端/weex/业务开发组件/图片选择上传.md)
+            * [11、确认弹窗组件](./移动端/weex/业务开发组件/确认弹窗组件.md)
+            * [12、loading提示组件](./移动端/weex/业务开发组件/loading提示组件.md)
+            * [13、progress进度条组件](./移动端/weex/业务开发组件/progress进度条组件.md)
+            * [14、开关按钮组件](./移动端/weex/业务开发组件/开关按钮组件.md)
+            * [15、弹层组件](./移动端/weex/业务开发组件/弹层组件.md)
+            * [16、蒙层组件](./移动端/weex/业务开发组件/蒙层组件.md)
+            * [17、单选多选组件](./移动端/weex/业务开发组件/单选多选组件.md)
+            * [18、省市区选择器](./移动端/weex/业务开发组件/省市区选择器.md)
+            * [19、日期选择组件](./移动端/weex/业务开发组件/日期选择组件.md)
+            * [20、图表组件](./移动端/weex/业务开发组件/图表组件.md)
+            * [21、图表组件](./移动端/weex/业务开发组件/图表组件.md)
+        * [3.5、Android与iOS原生组件](./移动端/weex/Android与iOS原生组件/SUMMARY.md)
+            * [1、电子签名](./移动端/weex/Android与iOS原生组件/电子签名.md)
+            * [2、基础工具](./移动端/weex/Android与iOS原生组件/基础工具.md)
+            * [3、生产二维码](./移动端/weex/Android与iOS原生组件/生产二维码.md)
+            * [4、加密解密](./移动端/weex/Android与iOS原生组件/加密解密.md)
+            * [5、分享](./移动端/weex/Android与iOS原生组件/分享.md)
+            * [6、文件上传与下载](./移动端/weex/Android与iOS原生组件/文件上传与下载.md)
+            * [7、应用外预览文件](./移动端/weex/Android与iOS原生组件/应用外预览文件.md)
+            * [8、活体检测](./移动端/weex/Android与iOS原生组件/活体检测.md)
+            * [9、日期选择器](./移动端/weex/Android与iOS原生组件/日期选择器.md)
+            * [10、省市区选择器](./移动端/weex/Android与iOS原生组件/省市区选择器.md)
+            * [11、身份证扫描](./移动端/weex/Android与iOS原生组件/身份证扫描.md)
+            * [12、高德地图](./移动端/weex/Android与iOS原生组件/高德地图.md)
+            * [13、指纹识别](./移动端/weex/Android与iOS原生组件/指纹识别.md)
+            * [14、手势密码](./移动端/weex/Android与iOS原生组件/手势密码.md)
+            * [15、图表](./移动端/weex/Android与iOS原生组件/图表.md)
+            * [16、数据库存储](./移动端/weex/Android与iOS原生组件/数据库存储.md)
+            * [17、pdf文件进行在线预览](./移动端/weex/Android与iOS原生组件/pdf文件进行在线预览.md)
+            * [18、安全键盘](./移动端/weex/Android与iOS原生组件/安全键盘.md)
+            * [19、视频压缩](./移动端/weex/Android与iOS原生组件/视频压缩.md)
+            * [20、日历操作](./移动端/weex/Android与iOS原生组件/日历操作.md)
+            * [21、ios录音](./移动端/weex/Android与iOS原生组件/ios录音.md)
+            * [22、android录音](./移动端/weex/Android与iOS原生组件/android录音.md)
+            * [23、视频播放和录制](./移动端/weex/Android与iOS原生组件/视频播放和录制.md)
+            * [24、沙盒文件存储](./移动端/weex/Android与iOS原生组件/沙盒文件存储.md)
+            * [25、扫描二维码](./移动端/weex/Android与iOS原生组件/扫描二维码.md)
+            * [26、系统媒体功能](./移动端/weex/Android与iOS原生组件/系统媒体功能.md)
+            * [27、多张图片选择](./移动端/weex/Android与iOS原生组件/多张图片选择.md)
+            * [28、百度地图](./移动端/weex/Android与iOS原生组件/百度地图.md)
+            * [29、热更新](./移动端/weex/Android与iOS原生组件/热更新.md)
+            * [30、极光推送](./移动端/weex/Android与iOS原生组件/极光推送.md)
+            * [31、多图预览](./移动端/weex/Android与iOS原生组件/多图预览.md)
+
+            
+            
+            
+    * [4、flutter](./移动端/flutter/SUMMARY.md)
+
+### web前端篇
+* [web前端](./web前端/SUMMARY.md)
+    * [1、vue](./web前端/vue/SUMMARY.md)
+    * [2、微信小程序](./web前端/微信小程序/SUMMARY.md)
 
         
